@@ -1,5 +1,5 @@
 # Textree
-Generate a content tree given a tex file
+Generate a content tree given a tex file outlining parts, chapters, sections, subsections, and subsubsections.
 
 ## Example
 ```
