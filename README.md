@@ -52,3 +52,7 @@ To illustrate this, below is the output of textree.sh on the same file as above:
 ```
 
 The shell version is however more simple to a significant degree. Use this version if you are big on simple software.
+
+## Usage
+Download whichever version you prefer and place it in your path.
+Then call the program with `textree.[sh/py] [target file].tex`
