@@ -2,7 +2,7 @@
 
 file=${1}
 
-cat ${file} | grep -e "part{" -e "chapter{" -e "section{" |\
+grep -e "part{" -e "chapter{" -e "section{" ${file }|\
     sed -e 's/\\part{/ /g'\
         -e 's/\\chapter{/├── /g'\
         -e 's/\\section{/│   ├── /g'\
